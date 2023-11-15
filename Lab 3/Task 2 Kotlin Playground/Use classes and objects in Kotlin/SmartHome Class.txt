@@ -1,0 +1,28 @@
+class SmartHome(
+    val smartTvDevice: SmartTvDevice,
+    val smartLightDevice: SmartLightDevice
+) {
+
+    var deviceTurnOnCount = 0
+        private set
+
+    private fun canPerformAction(): Boolean {
+        return smartTvDevice.deviceStatus == "on" && smartLightDevice.deviceStatus == "on"
+    }
+
+    fun turnOnTv() {
+        if (canPerformAction()) {
+            deviceTurnOnCount++
+            smartTvDevice.turnOn()
+        }
+    }
+
+    // ... Implement other functions with similar checks as `turnOnTv()`
+
+    fun turnOffAllDevices() {
+        if (canPerformAction()) {
+            turnOffTv()
+            turnOffLight()
+        }
+    }
+}

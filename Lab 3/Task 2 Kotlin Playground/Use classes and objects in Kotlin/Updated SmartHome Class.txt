@@ -1,0 +1,45 @@
+class SmartHome(
+    val smartTvDevice: SmartTvDevice,
+    val smartLightDevice: SmartLightDevice
+) {
+    var deviceTurnOnCount = 0
+        private set
+
+    // Existing methods
+
+    fun decreaseTvVolume() {
+        smartTvDevice.decreaseVolume()
+    }
+
+    fun changeTvChannelToPrevious() {
+        smartTvDevice.previousChannel()
+    }
+
+    fun printSmartTvInfo() {
+        println("Smart TV Info:")
+        smartTvDevice.printDeviceInfo()
+    }
+
+    fun printSmartLightInfo() {
+        println("Smart Light Info:")
+        smartLightDevice.printDeviceInfo()
+    }
+
+    fun decreaseLightBrightness() {
+        smartLightDevice.decreaseBrightness()
+    }
+
+    fun testSmartHomeMethods() {
+        turnOnTv()
+        increaseTvVolume()
+        changeTvChannelToNext()
+        decreaseTvVolume()
+        changeTvChannelToPrevious()
+        printSmartTvInfo()
+        turnOnLight()
+        increaseLightBrightness()
+        decreaseLightBrightness()
+        printSmartLightInfo()
+        turnOffAllDevices()
+    }
+}

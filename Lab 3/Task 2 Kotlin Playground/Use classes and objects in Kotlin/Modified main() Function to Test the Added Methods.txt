@@ -1,0 +1,7 @@
+fun main() {
+    val smartTv = SmartTvDevice("Android TV", "Entertainment")
+    val smartLight = SmartLightDevice("Google Light", "Utility")
+
+    val smartHome = SmartHome(smartTv, smartLight)
+    smartHome.testSmartHomeMethods()
+}
