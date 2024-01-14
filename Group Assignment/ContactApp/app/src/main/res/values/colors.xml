@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!--    <color name="purple_200">#FFBB86FC</color>-->
+<!--    <color name="purple_500">#FF6200EE</color>-->
+<!--    <color name="purple_700">#FF3700B3</color>-->
+<!--    <color name="teal_200">#FF03DAC5</color>-->
+<!--    <color name="teal_700">#FF018786</color>-->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="softPurple">#D3CCE3</color>
+    <color name="paleLavender">#BAA9E0</color>
+    <color name="gentleTeal">#9FD8DF</color>
+    <color name="subtleMint">#AEEEEE</color>
+    <color name="lightGray">#E5E5E5</color>
+    <color name="charcoal">#333333</color>
+    <color name="offWhite">#F5F5F5</color>
+    <color name="warmGray">#B0B0B0</color>
+
+<!--    <color name="colorPrimary">#222938</color>-->
+<!--    <color name="colorSecondary">#2d3e52</color>-->
+<!--    <color name="colorTextPrimary">#13b298</color>-->
+<!--    <color name="colorTextSecondary">#CBD5ED</color>-->
+<!--    <color name="colorThemeExtra">#FF5252</color>-->
+
+    <color name="colorPrimary">#212328</color> <!-- Medium Gray -->
+    <color name="colorSecondary">#1b1b1b</color> <!-- Dark Gray -->
+    <color name="colorTextPrimary">#e2dfe4</color> <!-- Off White -->
+    <color name="colorTextSecondary">#e2dfe4</color> <!-- Light Blue Gray -->
+    <color name="colorThemeExtra">#FF5252</color> <!-- Coral Red -->
+
+</resources>
